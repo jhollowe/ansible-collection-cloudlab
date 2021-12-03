@@ -1,0 +1,41 @@
+namespace: jhollowe
+name: cloudlab
+version: 0.0.1
+readme: README.md
+
+description: Collection of Cloudlab tools for Ansible.
+
+authors:
+- jhollowe
+
+license:
+- GPL-3.0-or-later
+
+tags:
+ - cloudlab
+ - inventory
+
+# Collections that this collection requires to be installed for it to be usable. The key of the dict is the
+# collection label 'namespace.name'. The value is a version range
+# L(specifiers,https://python-semanticversion.readthedocs.io/en/latest/#requirement-specification). Multiple version
+# range specifiers can be set and are separated by ','
+dependencies: {}
+
+
+repository: https://github.com/jhollowe/ansible-collection-cloudlab
+
+# The URL to any online docs
+documentation: https://github.com/jhollowe/ansible-collection-cloudlab
+
+# The URL to the homepage of the collection/project
+# homepage: http://example.com
+
+# The URL to the collection issue tracker
+issues: https://github.com/jhollowe/ansible-collection-cloudlab/issues
+
+# A list of file glob-like patterns used to filter any files or directories that should not be included in the build
+# artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This
+# uses 'fnmatch' to match the files or directories. Some directories and files like 'galaxy.yml', '*.pyc', '*.retry',
+# and '.git' are always filtered
+build_ignore:
+ - .devcontainer
