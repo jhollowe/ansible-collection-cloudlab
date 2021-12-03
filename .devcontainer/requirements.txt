@@ -1,0 +1,3 @@
+ansible-core~=2.12.0
+ansible-lint
+requests>1.1
